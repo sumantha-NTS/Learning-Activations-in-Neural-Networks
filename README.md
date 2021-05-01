@@ -9,43 +9,24 @@ The main objective is to select the best activation function for the given datas
 ## Bank-Note Authentication dataset:
 Bank note authentication dataset consists of 4 inputs and 1 output. Class is considered to be output variable. The user defined parameters are input layer neurons = 4, hidden layer neurons=8, epoch = 20 and batch size = 32. \
 The results for Bank note authentication dataset is mentioned below
-1. Best Activation function is relu with accuracy of 1.0
+1. Best Activation function is **relu** with accuracy of 1.0
 2. F1 score for model with relu activation function is 1.0
-3. Graph showing the model accuracy and loss with respect to epochs are shown below 
-
-
-
-
-
-
 
 ## Wisconsin Breast Cancer dataset:
 Wisconsin Breast Cancer dataset consists of 30 inputs and 1 output. Diagnosis is considered to be output variable. The user defined parameters are input layer neurons = 32, hidden layer neurons=64, epoch = 20 and batch size = 32. \
 The results for Bank note authentication dataset is mentioned below
-1. Best Activation function is selu with accuracy of 0.943.
+1. Best Activation function is **selu** with accuracy of 0.943.
 2. F1 score for model with selu activation function is 0.93.
-3. Graph showing the model accuracy and loss with respect to epochs are shown below 
-
-
-
-
-
 
 ## Iris dataset:
 Iries dataset consists of 4 inputs and 1 output. Species is considered to be output variable. The user defined parameters are input layer neurons = 64, hidden layer neurons=300, 
 epoch = 30 and batch size = 32.\
 The results for Bank note authentication dataset is mentioned below
-1. Best Activation function is tanh with accuracy of 0.983.
+1. Best Activation function is **tanh** with accuracy of 0.983.
 2. F1 score for model with tanh activation function is 1.
-
-
-
-
-
-
 
 ## MNIST Handwritten digit dataset:
 MNIST Handwritten digit dataset consists of 60000 training records and 10000 testing records. 0 to 9 digit is considered to be output variable. The user defined parameters are input layer neurons = 64, hidden layer neurons=128, epoch = 20 and batch size = 32.\
 The results for Bank note authentication dataset is mentioned below
-1. Best Activation function is tanh with accuracy of 0.997.
+1. Best Activation function is **tanh** with accuracy of 0.997.
 2. F1 score for model with tanh activation function is 0.976.
