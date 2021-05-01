@@ -7,11 +7,11 @@ With the understanding of background, neural network has been built with the hel
 The main objective is to select the best activation function for the given dataset. 7 activation functions are considered for the same purpose. They are Relu, LeakyRelu, Selu, Elu, Softplus, Exponential, Tanh. Since the classification problem statement is considered for experiments, the activation function considered for output layer is Softmax which gives the probability distribution of the classes. 
  
 ## Bank-Note Authentication dataset:
-Bank note authentication dataset consists of 4 inputs and 1 output. Class is considered to be output variable. The user defined parameters are input layer neurons = 4, hidden layer neurons=8, epoch = 20 and batch size = 32.
+Bank note authentication dataset consists of 4 inputs and 1 output. Class is considered to be output variable. The user defined parameters are input layer neurons = 4, hidden layer neurons=8, epoch = 20 and batch size = 32. \
 The results for Bank note authentication dataset is mentioned below
-	Best Activation function is relu with accuracy of 1.0
-	F1 score for model with relu activation function is 1.0
-	Graph showing the model accuracy and loss with respect to epochs are shown below 
+1. Best Activation function is relu with accuracy of 1.0
+2. F1 score for model with relu activation function is 1.0
+3. Graph showing the model accuracy and loss with respect to epochs are shown below 
 
 
 
@@ -20,11 +20,11 @@ The results for Bank note authentication dataset is mentioned below
 
 
 ## Wisconsin Breast Cancer dataset:
-Wisconsin Breast Cancer dataset consists of 30 inputs and 1 output. Diagnosis is considered to be output variable. The user defined parameters are input layer neurons = 32, hidden layer neurons=64, epoch = 20 and batch size = 32.
+Wisconsin Breast Cancer dataset consists of 30 inputs and 1 output. Diagnosis is considered to be output variable. The user defined parameters are input layer neurons = 32, hidden layer neurons=64, epoch = 20 and batch size = 32. \
 The results for Bank note authentication dataset is mentioned below
-	Best Activation function is selu with accuracy of 0.943.
-	F1 score for model with selu activation function is 0.93.
-	Graph showing the model accuracy and loss with respect to epochs are shown below 
+1. Best Activation function is selu with accuracy of 0.943.
+2. F1 score for model with selu activation function is 0.93.
+3. Graph showing the model accuracy and loss with respect to epochs are shown below 
 
 
 
@@ -33,10 +33,10 @@ The results for Bank note authentication dataset is mentioned below
 
 ## Iris dataset:
 Iries dataset consists of 4 inputs and 1 output. Species is considered to be output variable. The user defined parameters are input layer neurons = 64, hidden layer neurons=300, 
-epoch = 30 and batch size = 32.
+epoch = 30 and batch size = 32.\
 The results for Bank note authentication dataset is mentioned below
-	Best Activation function is tanh with accuracy of 0.983.
-	F1 score for model with tanh activation function is 1.
+1. Best Activation function is tanh with accuracy of 0.983.
+2. F1 score for model with tanh activation function is 1.
 
 
 
@@ -45,8 +45,7 @@ The results for Bank note authentication dataset is mentioned below
 
 
 ## MNIST Handwritten digit dataset:
-MNIST Handwritten digit dataset consists of 60000 training records and 10000 testing records. 0 to 9 digit is considered to be output variable. The user defined parameters are input layer neurons = 64, hidden layer neurons=128, epoch = 20 and batch size = 32.
+MNIST Handwritten digit dataset consists of 60000 training records and 10000 testing records. 0 to 9 digit is considered to be output variable. The user defined parameters are input layer neurons = 64, hidden layer neurons=128, epoch = 20 and batch size = 32.\
 The results for Bank note authentication dataset is mentioned below
-	Best Activation function is tanh with accuracy of 0.997.
-	F1 score for model with tanh activation function is 0.976.
-	Graph showin
+1. Best Activation function is tanh with accuracy of 0.997.
+2. F1 score for model with tanh activation function is 0.976.
